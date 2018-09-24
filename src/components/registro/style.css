@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+  padding: 3em;
+}
+
+.contenedor {
+  background-color: rgb(234, 240, 240);
+  margin: 15em;
+}
+
+.formulario {
+  text-align: center;
+  padding: 5em;
+}
+
+.button {
+  text-align: center;
+}

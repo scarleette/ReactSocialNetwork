@@ -1,0 +1,11 @@
+.contenedorComentario {
+  background-color: rgb(142, 228, 142);
+  padding: 2em;
+  display: flex;
+}
+
+.comentario {
+  flex-direction: column;
+  width: 20em;
+  height: 15em;
+}
