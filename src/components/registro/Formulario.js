@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Icon, Input, Row, Col} from 'react-materialize';
+import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
 
 

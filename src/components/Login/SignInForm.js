@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {Redirect,withRouter} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
 import Perfil from '../Perfil/Perfil';
 import Login from './Login';
+
 
 
 class SignInForm extends Component {
@@ -35,9 +36,11 @@ usuarioLogueado(event) {
 
  
   render() {
-      if (this.state.usuarioLogueado !== null){
-        return <Redirect to='/perfil' />
-      }
+      return (
+        <div>
+        {this.state.user ? ( <Perfil/>) : (<Login />)} 
+        </div>
+      )
     return (
       <div>
         <Row>
