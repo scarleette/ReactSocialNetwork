@@ -4,7 +4,7 @@ import Titulo from '../registro/Titulo';
 import Registro from '../registro/Registro';
 import SignInForm from './SignInForm';
 import LoginGoogle from './LoginGoogle';
-
+import './Login.css';
 
 
 const Login = () =>{
