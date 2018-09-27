@@ -7,6 +7,7 @@ import SignInForm from './SignInForm';
 import LoginGoogle from './LoginGoogle';
 import './Login.css';
 
+<<<<<<< HEAD
 class Login extends Component {
     constructor(props) {
         super(props);
@@ -17,6 +18,24 @@ class Login extends Component {
             email: '',
             password: ''
         };
+=======
+
+const Login = () =>{
+
+	return (
+
+		<Router basename={process.env.PUBLIC_URL + '/'}>
+			<div className = "fondoLogin">
+			<div className = "containerLogin">
+				<Titulo titulo="Little Pet Society" />
+				<SignInForm />
+				<a href={process.env.PUBLIC_URL + '/registro'}>Registrate con Nosotros</a>
+				<Route path="/registro" component={Registro}></Route>   
+				</div>
+			</div>
+		</Router>
+	)
+>>>>>>> 72ff0138d135a82467704f25771ccebd4975b23f
     }
     handleChange(e) {
         this.setState({
