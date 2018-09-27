@@ -12,12 +12,13 @@ const Login = () =>{
 	return (
 
 		<Router basename={process.env.PUBLIC_URL + '/'}>
+			<div className = "fondoLogin">
 			<div className = "containerLogin">
 				<Titulo titulo="Little Pet Society" />
 				<SignInForm />
-				<LoginGoogle/>
 				<a href={process.env.PUBLIC_URL + '/registro'}>Registrate con Nosotros</a>
 				<Route path="/registro" component={Registro}></Route>   
+				</div>
 			</div>
 		</Router>
 	)
