@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {withRouter} from 'react-router-dom';
 import {Button, Icon, Input, Row} from 'react-materialize';
 import firebase from '../../firebase/firebase';
+import LoginGoogle from '../Login/LoginGoogle';
 import Perfil from '../Perfil/Perfil';
 import Login from './Login';
 
@@ -44,6 +45,7 @@ usuarioLogueado(event) {
         </Row>
         
           <div className = "button">
+            <LoginGoogle/>  
             <center><Button waves='light' onClick={this.usuarioLogueado}><Icon left>send</Icon>Log In </Button></center>
           </div>
       </div>
