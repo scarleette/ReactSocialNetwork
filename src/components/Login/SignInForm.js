@@ -44,7 +44,7 @@ usuarioLogueado(event) {
         </Row>
         
           <div className = "button">
-            <center><Button waves='light' onClick={this.usuarioLogueado}><Icon left>send</Icon>Log In </Button></center>
+            <center><Button type="submit" waves='light' onClick={this.signup}><Icon left>send</Icon>Log In </Button></center>
           </div>
       </div>
     )
