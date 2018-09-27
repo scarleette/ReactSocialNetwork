@@ -34,13 +34,8 @@ usuarioLogueado(event) {
     })
 }
 
- 
   render() {
-      return (
-        <div>
-        {this.state.user ? ( <Perfil/>) : (<Login />)} 
-        </div>
-      )
+     
     return (
       <div>
         <Row>
