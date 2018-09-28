@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../Common/Navbar';
 import Carrusel from '../Common/Carrusel';
 import Informacion from './Informacion';
+import './buscador.css';
 
 class VistaBuscador extends Component {
   render() {
@@ -9,7 +10,7 @@ class VistaBuscador extends Component {
       <div>
         <Navbar/>
         {/* <Carrusel/> */}
-        {/* <h1>Buscador De Clinicas</h1> */}
+        <h4>Buscador De Clinicas</h4>
         <Informacion />
       </div>
     )
